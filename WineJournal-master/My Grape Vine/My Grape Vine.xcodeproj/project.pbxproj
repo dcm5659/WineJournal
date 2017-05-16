@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C583C171ECA25DE00BBFEDF /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C583C161ECA25DE00BBFEDF /* Wine.swift */; };
+		7C91D0BA1ECA734C00372F06 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91D0B91ECA734C00372F06 /* SwiftyJSON.swift */; };
 		7CC3B8191EB103EB0086D350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B8181EB103EB0086D350 /* AppDelegate.swift */; };
 		7CC3B8201EB103EB0086D350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3B81E1EB103EB0086D350 /* Main.storyboard */; };
 		7CC3B8221EB103EB0086D350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3B8211EB103EB0086D350 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C583C161ECA25DE00BBFEDF /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		7C91D0B91ECA734C00372F06 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		7CC3B8151EB103EB0086D350 /* My Grape Vine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Grape Vine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC3B8181EB103EB0086D350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CC3B81F1EB103EB0086D350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				7CC3B8211EB103EB0086D350 /* Assets.xcassets */,
 				7CC3B8261EB103EB0086D350 /* Info.plist */,
 				7CC3B84E1EB106C60086D350 /* WineAppData.swift */,
+				7C583C161ECA25DE00BBFEDF /* Wine.swift */,
+				7C91D0B91ECA734C00372F06 /* SwiftyJSON.swift */,
 			);
 			path = "My Grape Vine";
 			sourceTree = "<group>";
@@ -286,8 +292,10 @@
 			files = (
 				7CC3B84F1EB106C60086D350 /* WineAppData.swift in Sources */,
 				7CC3B8511EB1088E0086D350 /* SearchTableVC.swift in Sources */,
+				7C583C171ECA25DE00BBFEDF /* Wine.swift in Sources */,
 				7CC3B84D1EB1069E0086D350 /* FavoritesVC.swift in Sources */,
 				7CC3B8191EB103EB0086D350 /* AppDelegate.swift in Sources */,
+				7C91D0BA1ECA734C00372F06 /* SwiftyJSON.swift in Sources */,
 				7CC3B8531EB109750086D350 /* FavoritesDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +541,7 @@
 				7CC3B8411EB103EB0086D350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CC3B8421EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +550,7 @@
 				7CC3B8441EB103EB0086D350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CC3B8451EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +559,7 @@
 				7CC3B8471EB103EB0086D350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

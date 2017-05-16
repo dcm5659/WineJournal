@@ -17,6 +17,7 @@
 		7CC3B84F1EB106C60086D350 /* WineAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B84E1EB106C60086D350 /* WineAppData.swift */; };
 		7CC3B8511EB1088E0086D350 /* SearchTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B8501EB1088E0086D350 /* SearchTableVC.swift */; };
 		7CC3B8531EB109750086D350 /* FavoritesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B8521EB109750086D350 /* FavoritesDetailVC.swift */; };
+		96093B071EC6602900FF0599 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96093B061EC6602900FF0599 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7CC3B84E1EB106C60086D350 /* WineAppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineAppData.swift; sourceTree = "<group>"; };
 		7CC3B8501EB1088E0086D350 /* SearchTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableVC.swift; sourceTree = "<group>"; };
 		7CC3B8521EB109750086D350 /* FavoritesDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesDetailVC.swift; sourceTree = "<group>"; };
+		96093B061EC6602900FF0599 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				7CC3B84B1EB1067E0086D350 /* VCs */,
 				7CC3B8181EB103EB0086D350 /* AppDelegate.swift */,
+				96093B051EC65FBB00FF0599 /* Lib */,
 				7CC3B8481EB106540086D350 /* Storyboard */,
 				7CC3B8211EB103EB0086D350 /* Assets.xcassets */,
 				7CC3B8261EB103EB0086D350 /* Info.plist */,
@@ -148,6 +151,14 @@
 				7CC3B8521EB109750086D350 /* FavoritesDetailVC.swift */,
 			);
 			name = VCs;
+			sourceTree = "<group>";
+		};
+		96093B051EC65FBB00FF0599 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				96093B061EC6602900FF0599 /* SwiftyJSON.swift */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 				7CC3B84F1EB106C60086D350 /* WineAppData.swift in Sources */,
 				7CC3B8511EB1088E0086D350 /* SearchTableVC.swift in Sources */,
 				7CC3B84D1EB1069E0086D350 /* FavoritesVC.swift in Sources */,
+				96093B071EC6602900FF0599 /* SwiftyJSON.swift in Sources */,
 				7CC3B8191EB103EB0086D350 /* AppDelegate.swift in Sources */,
 				7CC3B8531EB109750086D350 /* FavoritesDetailVC.swift in Sources */,
 			);
@@ -533,6 +545,7 @@
 				7CC3B8411EB103EB0086D350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CC3B8421EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +554,7 @@
 				7CC3B8441EB103EB0086D350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CC3B8451EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +563,7 @@
 				7CC3B8471EB103EB0086D350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
