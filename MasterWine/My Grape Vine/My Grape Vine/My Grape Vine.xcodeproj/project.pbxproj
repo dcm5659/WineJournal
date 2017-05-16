@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC3B8191EB103EB0086D350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B8181EB103EB0086D350 /* AppDelegate.swift */; };
+		7CC3B8201EB103EB0086D350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3B81E1EB103EB0086D350 /* Main.storyboard */; };
+		7CC3B8221EB103EB0086D350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3B8211EB103EB0086D350 /* Assets.xcassets */; };
+		7CC3B8251EB103EB0086D350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3B8231EB103EB0086D350 /* LaunchScreen.storyboard */; };
+		7CC3B8301EB103EB0086D350 /* My_Grape_VineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B82F1EB103EB0086D350 /* My_Grape_VineTests.swift */; };
+		7CC3B83B1EB103EB0086D350 /* My_Grape_VineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B83A1EB103EB0086D350 /* My_Grape_VineUITests.swift */; };
+		7CC3B84D1EB1069E0086D350 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B84C1EB1069E0086D350 /* FavoritesVC.swift */; };
+		7CC3B84F1EB106C60086D350 /* WineAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B84E1EB106C60086D350 /* WineAppData.swift */; };
+		7CC3B8511EB1088E0086D350 /* SearchTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B8501EB1088E0086D350 /* SearchTableVC.swift */; };
+		7CC3B8531EB109750086D350 /* FavoritesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3B8521EB109750086D350 /* FavoritesDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC3B82C1EB103EB0086D350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC3B80D1EB103EA0086D350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC3B8141EB103EA0086D350;
+			remoteInfo = "My Grape Vine";
+		};
+		7CC3B8371EB103EB0086D350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC3B80D1EB103EA0086D350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC3B8141EB103EA0086D350;
+			remoteInfo = "My Grape Vine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CC3B8151EB103EB0086D350 /* My Grape Vine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Grape Vine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC3B8181EB103EB0086D350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC3B81F1EB103EB0086D350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC3B8211EB103EB0086D350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC3B8241EB103EB0086D350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC3B8261EB103EB0086D350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC3B82B1EB103EB0086D350 /* My Grape VineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Grape VineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC3B82F1EB103EB0086D350 /* My_Grape_VineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Grape_VineTests.swift; sourceTree = "<group>"; };
+		7CC3B8311EB103EB0086D350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC3B8361EB103EB0086D350 /* My Grape VineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Grape VineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC3B83A1EB103EB0086D350 /* My_Grape_VineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Grape_VineUITests.swift; sourceTree = "<group>"; };
+		7CC3B83C1EB103EB0086D350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC3B84C1EB1069E0086D350 /* FavoritesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		7CC3B84E1EB106C60086D350 /* WineAppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineAppData.swift; sourceTree = "<group>"; };
+		7CC3B8501EB1088E0086D350 /* SearchTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableVC.swift; sourceTree = "<group>"; };
+		7CC3B8521EB109750086D350 /* FavoritesDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC3B8121EB103EA0086D350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC3B8281EB103EB0086D350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC3B8331EB103EB0086D350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC3B80C1EB103EA0086D350 = {
+			isa = PBXGroup;
+			children = (
+				7CC3B8171EB103EB0086D350 /* My Grape Vine */,
+				7CC3B82E1EB103EB0086D350 /* My Grape VineTests */,
+				7CC3B8391EB103EB0086D350 /* My Grape VineUITests */,
+				7CC3B8161EB103EB0086D350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC3B8161EB103EB0086D350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3B8151EB103EB0086D350 /* My Grape Vine.app */,
+				7CC3B82B1EB103EB0086D350 /* My Grape VineTests.xctest */,
+				7CC3B8361EB103EB0086D350 /* My Grape VineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC3B8171EB103EB0086D350 /* My Grape Vine */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3B84B1EB1067E0086D350 /* VCs */,
+				7CC3B8181EB103EB0086D350 /* AppDelegate.swift */,
+				7CC3B8481EB106540086D350 /* Storyboard */,
+				7CC3B8211EB103EB0086D350 /* Assets.xcassets */,
+				7CC3B8261EB103EB0086D350 /* Info.plist */,
+				7CC3B84E1EB106C60086D350 /* WineAppData.swift */,
+			);
+			path = "My Grape Vine";
+			sourceTree = "<group>";
+		};
+		7CC3B82E1EB103EB0086D350 /* My Grape VineTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3B82F1EB103EB0086D350 /* My_Grape_VineTests.swift */,
+				7CC3B8311EB103EB0086D350 /* Info.plist */,
+			);
+			path = "My Grape VineTests";
+			sourceTree = "<group>";
+		};
+		7CC3B8391EB103EB0086D350 /* My Grape VineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3B83A1EB103EB0086D350 /* My_Grape_VineUITests.swift */,
+				7CC3B83C1EB103EB0086D350 /* Info.plist */,
+			);
+			path = "My Grape VineUITests";
+			sourceTree = "<group>";
+		};
+		7CC3B8481EB106540086D350 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3B81E1EB103EB0086D350 /* Main.storyboard */,
+				7CC3B8231EB103EB0086D350 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7CC3B84B1EB1067E0086D350 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3B84C1EB1069E0086D350 /* FavoritesVC.swift */,
+				7CC3B8501EB1088E0086D350 /* SearchTableVC.swift */,
+				7CC3B8521EB109750086D350 /* FavoritesDetailVC.swift */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC3B8141EB103EA0086D350 /* My Grape Vine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC3B83F1EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape Vine" */;
+			buildPhases = (
+				7CC3B8111EB103EA0086D350 /* Sources */,
+				7CC3B8121EB103EA0086D350 /* Frameworks */,
+				7CC3B8131EB103EA0086D350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Grape Vine";
+			productName = "My Grape Vine";
+			productReference = 7CC3B8151EB103EB0086D350 /* My Grape Vine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC3B82A1EB103EB0086D350 /* My Grape VineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC3B8421EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineTests" */;
+			buildPhases = (
+				7CC3B8271EB103EB0086D350 /* Sources */,
+				7CC3B8281EB103EB0086D350 /* Frameworks */,
+				7CC3B8291EB103EB0086D350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC3B82D1EB103EB0086D350 /* PBXTargetDependency */,
+			);
+			name = "My Grape VineTests";
+			productName = "My Grape VineTests";
+			productReference = 7CC3B82B1EB103EB0086D350 /* My Grape VineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC3B8351EB103EB0086D350 /* My Grape VineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC3B8451EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineUITests" */;
+			buildPhases = (
+				7CC3B8321EB103EB0086D350 /* Sources */,
+				7CC3B8331EB103EB0086D350 /* Frameworks */,
+				7CC3B8341EB103EB0086D350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC3B8381EB103EB0086D350 /* PBXTargetDependency */,
+			);
+			name = "My Grape VineUITests";
+			productName = "My Grape VineUITests";
+			productReference = 7CC3B8361EB103EB0086D350 /* My Grape VineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC3B80D1EB103EA0086D350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Martin (RIT Student)";
+				TargetAttributes = {
+					7CC3B8141EB103EA0086D350 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CC3B82A1EB103EB0086D350 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC3B8141EB103EA0086D350;
+					};
+					7CC3B8351EB103EB0086D350 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC3B8141EB103EA0086D350;
+					};
+				};
+			};
+			buildConfigurationList = 7CC3B8101EB103EA0086D350 /* Build configuration list for PBXProject "My Grape Vine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC3B80C1EB103EA0086D350;
+			productRefGroup = 7CC3B8161EB103EB0086D350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC3B8141EB103EA0086D350 /* My Grape Vine */,
+				7CC3B82A1EB103EB0086D350 /* My Grape VineTests */,
+				7CC3B8351EB103EB0086D350 /* My Grape VineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC3B8131EB103EA0086D350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC3B8251EB103EB0086D350 /* LaunchScreen.storyboard in Resources */,
+				7CC3B8221EB103EB0086D350 /* Assets.xcassets in Resources */,
+				7CC3B8201EB103EB0086D350 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC3B8291EB103EB0086D350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC3B8341EB103EB0086D350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC3B8111EB103EA0086D350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC3B84F1EB106C60086D350 /* WineAppData.swift in Sources */,
+				7CC3B8511EB1088E0086D350 /* SearchTableVC.swift in Sources */,
+				7CC3B84D1EB1069E0086D350 /* FavoritesVC.swift in Sources */,
+				7CC3B8191EB103EB0086D350 /* AppDelegate.swift in Sources */,
+				7CC3B8531EB109750086D350 /* FavoritesDetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC3B8271EB103EB0086D350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC3B8301EB103EB0086D350 /* My_Grape_VineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC3B8321EB103EB0086D350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC3B83B1EB103EB0086D350 /* My_Grape_VineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC3B82D1EB103EB0086D350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC3B8141EB103EA0086D350 /* My Grape Vine */;
+			targetProxy = 7CC3B82C1EB103EB0086D350 /* PBXContainerItemProxy */;
+		};
+		7CC3B8381EB103EB0086D350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC3B8141EB103EA0086D350 /* My Grape Vine */;
+			targetProxy = 7CC3B8371EB103EB0086D350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC3B81E1EB103EB0086D350 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC3B81F1EB103EB0086D350 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC3B8231EB103EB0086D350 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC3B8241EB103EB0086D350 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC3B83D1EB103EB0086D350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC3B83E1EB103EB0086D350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC3B8401EB103EB0086D350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Grape Vine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winejournal.My-Grape-Vine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CC3B8411EB103EB0086D350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Grape Vine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winejournal.My-Grape-Vine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7CC3B8431EB103EB0086D350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Grape VineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winejournal.My-Grape-VineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Grape Vine.app/My Grape Vine";
+			};
+			name = Debug;
+		};
+		7CC3B8441EB103EB0086D350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Grape VineTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winejournal.My-Grape-VineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Grape Vine.app/My Grape Vine";
+			};
+			name = Release;
+		};
+		7CC3B8461EB103EB0086D350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "My Grape VineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winejournal.My-Grape-VineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Grape Vine";
+			};
+			name = Debug;
+		};
+		7CC3B8471EB103EB0086D350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "My Grape VineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winejournal.My-Grape-VineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Grape Vine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC3B8101EB103EA0086D350 /* Build configuration list for PBXProject "My Grape Vine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC3B83D1EB103EB0086D350 /* Debug */,
+				7CC3B83E1EB103EB0086D350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC3B83F1EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape Vine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC3B8401EB103EB0086D350 /* Debug */,
+				7CC3B8411EB103EB0086D350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC3B8421EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC3B8431EB103EB0086D350 /* Debug */,
+				7CC3B8441EB103EB0086D350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC3B8451EB103EB0086D350 /* Build configuration list for PBXNativeTarget "My Grape VineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC3B8461EB103EB0086D350 /* Debug */,
+				7CC3B8471EB103EB0086D350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC3B80D1EB103EA0086D350 /* Project object */;
+}
